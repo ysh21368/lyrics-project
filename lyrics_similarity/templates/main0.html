@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>main0</title>
+</head>
+
+<body>
+  {%include 'header.html'%}
+
+  
+  <div class="main-box">
+    <div id="box">
+      <div id="search-box">
+        <h1 id="title" class="animated swing">
+          <a href="{{url_for('main') }}">
+            <img src="static/image/Lyricle.png">
+          </a>
+        </h1>
+      </div>
+      <form action="/search" , method="post" name='form_search'>
+
+        <div class="dropdown-search">
+
+          <div class="dropdown" id="dropdown-search">
+            <select class="dropdown-select" name="category" id="category">
+              <option value="lyrics" selected>가사</option>
+              <option value="artists">가수</option>
+              <option value="titles">제목</option>
+            </select>
+          </div>
+          <div class="search-box">
+            <input id="search" type="text" name='search' placeholder="가사를 입력해주세요." />
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <!-- /<iframe src="//www.youtube.com/embed/pXgmZlLuUR4" frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe> -->
+    
+    {%include 'footer.html'%}
+</body>
+<script src="{{url_for('static', filename='js/main.js')}}" defer></script>
+
+</html>
+
+
+<!--필요항목 ; 발매일 장르 가수 제목 가사 이미지 -->

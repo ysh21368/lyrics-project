@@ -1,0 +1,487 @@
+a {  text-decoration-line: none;
+/*   text-decoration-line: underline; */
+/*   text-decoration-line: overline; */
+/*   text-decoration-line: line-through; */
+/*   text-decoration-line: underline line-through overline; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  word-break: break-all;
+  font-family: Pretendard;
+}
+
+/* index 창 맨 위 헤더 */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(28, 28, 28);
+}
+
+/* body 기본 설정 */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+/* index 페이지 톱 바 */
+.top-bar nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* index 페이지 로고 및 검색 부분*/
+.main-box{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+/* search, result 페이지 로고 및 검색 부분 */
+.front-box{
+  justify-content:center;
+}
+
+/* 로고 자리 */
+#search-box {
+  width: 100%;
+  padding: 10px 0px 5px;
+  margin: 15px 0px 7px;
+  background: #ffffff;
+  text-align: center;
+}
+
+ #title {
+  font-size: 24px;
+} 
+
+ @media screen and (min-width: 550px) {
+  #title {
+    font-size: 32px;
+  }
+} 
+
+ #title:hover {
+  animation-iteration-count: infinite;
+}
+
+.dropdown-search{
+  padding: 3px 0px 10px;
+  margin: 3px 0px 10px;
+  display: flex;
+  justify-content:center;
+}
+
+.dropdown-select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid;
+  border-color: #aaa;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+#search {
+  display: flex;
+  justify-content:center;
+  margin: 10px;
+  padding: 5px 8px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid rgb(222, 222, 222);
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+#search:focus {
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: 1px gray;
+  box-shadow: 0 0 5px rgba(142, 142, 142, 0.5);
+}
+
+#search:hover {
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: 1px gray;
+  box-shadow: 0 0 5px rgba(142, 142, 142, 0.5);
+}
+
+@media screen and (min-width: 800px) {
+  #search {
+    width: 400px;
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 0;
+  padding: 0;
+}
+
+.divisionline {
+  margin: 10px 0px 20px;
+  size: 1px;
+  border: 1px solid;
+  border-color:rgb(240, 240, 240);
+}
+
+.before-box{
+  justify-content: right;
+  text-align: right;
+  padding: 5px 0px 5px;
+  margin: 10px 0px 10px;
+}
+
+/* 검색 부분 */
+#search-result {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+  #search-result {
+    width: 800px;
+  }
+  .music-box {
+    border-radius: 20px;
+  }
+}
+
+#music-result {
+  padding: 0;
+  margin: 0;
+}
+
+/* seach창 뮤직 박스 */
+.music-box {
+  display: flex;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  text-align: center;
+  list-style: none;
+}
+
+.music-box:hover {
+  cursor: pointer;
+  outline: 1px solid;
+  outline-color: #aaa;
+}
+/* seach창 뮤직 박스 */
+
+/* result창 선택된 뮤직 박스 */
+.criteria-music-box {
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  list-style: none;
+  outline: 1px solid;
+  outline-color: #aaa;
+}
+/* result창 선택된 뮤직 박스 */
+
+/* result창 뮤직 박스 */
+.music-result-box {
+  display: flex;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  text-align: center;
+  list-style: none;
+}
+
+.music-result-box:hover {
+  cursor: pointer;
+  outline: 1px dashed;
+  outline-color: #aaa;
+}
+
+.melon {
+  width: 10%;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#play {
+  width: 35%; 
+  height: 35%;
+  margin: 5px 0px 15px;
+}
+.music-box-content{
+  width: 90%;
+  display: inline-block;
+}
+/* result창 뮤직 박스 */
+
+
+/* 곡 정보 속성 */
+.info-color {
+  color: #000000;
+}
+
+.info-linehight {
+  margin-top: 10px;
+}
+
+.info {
+  width: 100%;
+  margin-top: 10px;
+}
+@media screen and (min-width: 550px) {
+  .info {
+    width: 80%;
+    margin: 0 0 0 10px;
+    display: inline-block;
+    text-align: left;
+  }
+}
+/* 곡 정보 속성 */
+
+.img {
+  width: 10%;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+/* 추가 가사 부분 */
+.user-guide {
+  align-content: center;
+  padding: 10px 10px;
+  display: flex;
+  color: #969696;
+  justify-content: center;
+}
+.user-guide-message {
+  padding: 10px;
+  margin: 5px 10px;
+  align-content: center;
+}
+.user-guide-button {
+  margin: 10px 10px 10px;
+  padding: 5px 7px;
+}
+
+/* modal */
+/* CSS for the modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+}
+
+/* Modal content */
+ .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 40px;
+  border: 0px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-content-info {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-buttons{
+  display: inline-block; margin: 0 0px;  float: right;"
+
+}
+.modal-button {
+  margin: ;
+  padding: 5px 7px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myTextarea{
+  width:100%;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#spinner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* modal */
+
+/* 바텀 바 */
+.bottom-bar {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 30px;
+}
+
+.bottom-content {
+  margin-bottom: 50px;
+}
+
+.bottom-bar div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  height: 100%;
+  /* align-items: center; */
+
+}
+
+.bottom-bar div ul li {
+  margin: 0 10px;
+}
+
+.bottom-bar div ul li a {
+  color: #919191;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  align-items: center;
+}
+
+.bottom-bar div ul li a:hover {
+  color: #ffcc00;
+}
+/* 바텀 바 */
+
+
+
+
+h3 span {
+  font-size: 16px;
+}
+/* .dropdown::before, .dropdown::after {
+  text-align: right;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-top-color: #333;
+}
+.dropdown::after {
+  text-align: right;
+  margin-top: 5px;
+  border-top-color: #f1f1f1;
+}
+ */
+/* h1 {
+  text-align: center;
+} */
+/* 
+h3,p {
+  margin: 0;
+} */
+/* #search-btn {
+  flex-shrink: 0;
+  margin: 0 0 0 10px;
+  padding: 5px 0;
+  width: 70px;
+  border-radius: 4px;
+  background: rgba(208, 208, 208, 0.8);
+  color: rgb(17, 1, 1);
+  cursor: pointer;
+  border: 1px solid;
+  border-color: #aaa;
+} */
+/* 
+#search-btn:focus {
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: 1px gray;
+  box-shadow: 0 0 5px rgba(142, 142, 142, 0.5);
+} */
+/* #search-btn:hover {
+  border: 1px solid rgb(192, 192, 192);
+  box-shadow: 1px gray;
+  box-shadow: 0 0 5px rgba(142, 142, 142, 0.5);
+} */

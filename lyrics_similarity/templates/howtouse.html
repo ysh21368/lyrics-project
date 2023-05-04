@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{ display:block; margin:auto; max-width: 100%;}
+        @media screen and (min-width: 1024px) {
+            img{
+            width: 1024px;
+              }
+        }
+        button {
+        display: block;
+        margin-left: auto;
+        }
+        body {
+            margin: 50px 
+        }
+        a {  text-decoration-line: none;
+        }
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        word-break: break-all;
+        font-family: Pretendard;
+        }
+
+      </style>
+    <title>Lyricle</title>
+</head>
+<body id="search-result">
+    <div class="htu">
+        <img src="static/image/howtouse.png">
+        <button><a href="{{url_for('main') }}">뒤로가기</a></button>
+    </div>
+</body>
+</html>

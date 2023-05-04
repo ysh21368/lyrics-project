@@ -1,0 +1,930 @@
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.31.28.87:8999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-980-008
+106.101.65.160 - - [28/Feb/2023 09:33:23] "GET / HTTP/1.1" 200 -
+106.101.65.160 - - [28/Feb/2023 09:33:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:33:24] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:33:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:33:25] "GET / HTTP/1.1" 200 -
+106.101.65.160 - - [28/Feb/2023 09:33:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:33:25] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:33:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:34:54] "GET / HTTP/1.1" 200 -
+106.101.65.160 - - [28/Feb/2023 09:34:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:34:54] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:34:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:34:55] "GET / HTTP/1.1" 200 -
+106.101.65.160 - - [28/Feb/2023 09:34:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:34:55] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:34:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:35:53] "GET / HTTP/1.1" 200 -
+106.101.65.160 - - [28/Feb/2023 09:35:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:35:53] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:35:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:35:55] "GET / HTTP/1.1" 200 -
+106.101.65.160 - - [28/Feb/2023 09:35:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:35:55] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.160 - - [28/Feb/2023 09:35:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:36:30] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:36:30] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:36:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:36:30] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:36:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 09:37:47] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:37:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:37:47] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:37:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:38:35] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:38:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:38:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:38:35] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:38:49] "GET /detail/325 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:38:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:38:49] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:38:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:03] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:39:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:03] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:15] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:39:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:15] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:42] "POST /nondb HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 09:39:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:42] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 09:39:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 11:17:26] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 11:17:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 11:17:26] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 11:17:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 11:17:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.101.65.200 - - [28/Feb/2023 11:44:11] "GET / HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:11] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:12] "GET / HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:13] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:17] "GET / HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:17] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:18] "GET /howto HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:19] "GET /static/image/howtouse.png HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:21] "GET / HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:21] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:30] "GET / HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:31] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:39] "POST /search HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:40] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:52] "POST /nondb HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:44:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:52] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:44:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:04] "POST /search HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:04] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:10] "GET /detail/607 HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:10] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:21] "GET /detail/607 HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:21] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:36] "POST /search HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:36] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:42] "POST /search HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:42] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:45] "POST /search HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:46] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:49] "GET /detail/3977 HTTP/1.1" 200 -
+106.101.65.200 - - [28/Feb/2023 11:46:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:49] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.200 - - [28/Feb/2023 11:46:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:34:34] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:34:34] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:34:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:34:35] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:34:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:34:35] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+52.7.162.6 - - [28/Feb/2023 12:34:51] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:54] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:54] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:54] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:54] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:34:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 12:35:02] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:02] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:06] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:06] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:14] "POST /nondb HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:14] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:35] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:35] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:36] "GET /detail/283 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:37] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:46] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:46] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:47] "GET /detail/296 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:35:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:47] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:35:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:36:01] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:36:02] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:36:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:36:03] "GET /detail/1852 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:36:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:36:03] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:36:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.190 - - [28/Feb/2023 12:41:32] "POST /search HTTP/1.1" 200 -
+106.101.65.190 - - [28/Feb/2023 12:41:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.190 - - [28/Feb/2023 12:41:33] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.190 - - [28/Feb/2023 12:41:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 12:57:42] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:57:42] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:57:42] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:57:42] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 12:57:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 13:03:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:03:16] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:03:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:21:38] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 13:21:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:21:38] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:21:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:21:39] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 13:21:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:21:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 13:21:39] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:09] "GET /howto HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:09] "[36mGET /static/image/howtouse.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:16] "GET /howto HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:16] "[36mGET /static/image/howtouse.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:17] "GET / HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:17] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:20] "GET / HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:20] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:23] "GET / HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:23] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:28] "POST /search HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:28] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:38] "GET / HTTP/1.1" 200 -
+106.101.65.126 - - [28/Feb/2023 13:22:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:38] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.126 - - [28/Feb/2023 13:22:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+223.62.10.187 - - [28/Feb/2023 14:17:31] "GET / HTTP/1.1" 200 -
+223.62.10.187 - - [28/Feb/2023 14:17:32] "GET /static/css/main.css HTTP/1.1" 200 -
+223.62.10.187 - - [28/Feb/2023 14:17:32] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+223.62.10.187 - - [28/Feb/2023 14:17:32] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET / HTTP/1.1" 200 -
+223.62.10.187 - - [28/Feb/2023 14:17:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET / HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:17:33] "GET / HTTP/1.1" 200 -
+106.101.3.134 - - [28/Feb/2023 14:17:33] "GET / HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:17:33] "GET /static/js/main.js HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:17:33] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:17:33] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:33] "GET /static/js/main.js HTTP/1.1" 200 -
+106.101.3.134 - - [28/Feb/2023 14:17:33] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+106.101.3.134 - - [28/Feb/2023 14:17:33] "GET /static/css/main.css HTTP/1.1" 200 -
+106.101.3.134 - - [28/Feb/2023 14:17:33] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.111.10.171 - - [28/Feb/2023 14:17:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.101.3.134 - - [28/Feb/2023 14:17:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.38.47.125 - - [28/Feb/2023 14:17:35] "GET / HTTP/1.1" 200 -
+140.248.29.3 - - [28/Feb/2023 14:17:35] "GET / HTTP/1.1" 200 -
+223.38.47.125 - - [28/Feb/2023 14:17:35] "GET /static/css/main.css HTTP/1.1" 200 -
+223.38.47.125 - - [28/Feb/2023 14:17:35] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+223.38.47.125 - - [28/Feb/2023 14:17:35] "GET /static/js/main.js HTTP/1.1" 200 -
+140.248.29.3 - - [28/Feb/2023 14:17:36] "GET /static/css/main.css HTTP/1.1" 200 -
+172.226.94.40 - - [28/Feb/2023 14:17:36] "GET /static/js/main.js HTTP/1.1" 200 -
+172.226.94.40 - - [28/Feb/2023 14:17:36] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET / HTTP/1.1" 200 -
+223.38.47.125 - - [28/Feb/2023 14:17:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:36] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.38.41.197 - - [28/Feb/2023 14:17:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:38] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:39] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:39] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:39] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:17:40] "GET / HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:17:41] "GET /static/css/main.css HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:17:41] "GET /static/js/main.js HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:17:41] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:17:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:44] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:44] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:44] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:44] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:47] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/app.py", line 82, in search
+    cursor.execute(sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' order by release_date desc' at line 1")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/lab12/web/Lyrics/app.py", line 94, in search
+    flush("There was an error with the database query.")
+NameError: name 'flush' is not defined
+58.120.204.126 - - [28/Feb/2023 14:17:47] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:47] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:47] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:47] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:48] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:48] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:17:48] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:17:49] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+117.111.10.171 - - [28/Feb/2023 14:17:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.111.10.171 - - [28/Feb/2023 14:17:49] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:17:49] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:49] "GET /static/css/main.css HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:49] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:49] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:51] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:51] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:17:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:17:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:00] "GET / HTTP/1.1" 200 -
+211.234.197.162 - - [28/Feb/2023 14:18:00] "GET /static/css/main.css HTTP/1.1" 200 -
+211.234.197.162 - - [28/Feb/2023 14:18:00] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+211.234.197.162 - - [28/Feb/2023 14:18:00] "GET /static/js/main.js HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:00] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:00] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.226.94.40 - - [28/Feb/2023 14:18:02] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:02] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:02] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:02] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:18:03] "POST /search HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:18:03] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:18:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+1.225.35.132 - - [28/Feb/2023 14:18:04] "[31m[1mGET /search HTTP/1.1[0m" 405 -
+58.120.204.126 - - [28/Feb/2023 14:18:04] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:06] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:06] "GET /detail/4410 HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:18:06] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "POST /nondb HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:11] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:12] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "GET / HTTP/1.1" 200 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:13] "GET /detail/4756 HTTP/1.1" 200 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.3.134 - - [28/Feb/2023 14:18:13] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:13] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:14] "POST /search HTTP/1.1" 200 -
+223.38.48.20 - - [28/Feb/2023 14:18:14] "POST /search HTTP/1.1" 200 -
+172.226.94.40 - - [28/Feb/2023 14:18:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:14] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+223.38.48.20 - - [28/Feb/2023 14:18:14] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+223.38.48.20 - - [28/Feb/2023 14:18:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.38.48.20 - - [28/Feb/2023 14:18:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:18] "GET /detail/673 HTTP/1.1" 200 -
+172.226.94.40 - - [28/Feb/2023 14:18:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:19] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:21] "GET /detail/7844 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:21] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+223.38.47.227 - - [28/Feb/2023 14:18:22] "GET /detail/3943 HTTP/1.1" 200 -
+223.38.47.227 - - [28/Feb/2023 14:18:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.38.47.227 - - [28/Feb/2023 14:18:22] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+223.38.47.227 - - [28/Feb/2023 14:18:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:30] "GET /detail/2389 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:18:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:30] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:18:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.40 - - [28/Feb/2023 14:18:35] "GET /howto HTTP/1.1" 200 -
+172.226.94.40 - - [28/Feb/2023 14:18:35] "GET /static/image/howtouse.png HTTP/1.1" 200 -
+titles 한숨
+"한숨" 325
+[0.0, 0.7131156325340271, 0.7139219045639038, 0.7523522973060608, 0.7537058591842651, 0.758452296257019, 0.7602872848510742, 0.7672489285469055, 0.7748156785964966, 0.7780508399009705, 0.7805661559104919, 0.7914295196533203, 0.8045794367790222, 0.8063790202140808, 0.8069470524787903, 0.8085541725158691, 0.816710352897644, 0.818303644657135, 0.8201832175254822, 0.8208063244819641]
+[1015, 1750, 747, 1772, 127, 7808, 2284, 5557, 99, 9846, 3134, 9058, 66, 5181, 7765, 6053, 1075, 10868, 4198]
+5
+artists new jeans
+([4148, 5403, 4051, 10758, 4399], [1.0913746356964111, 1.104062795639038, 1.1113831996917725, 1.1301413774490356, 1.1306779384613037])
+lyrics ㄹㄱㄴㄱㄴᆢ
+([33, 904, 6870, 1901, 10473], [0.20870299637317657, 1.3488821983337402, 1.3498121500015259, 1.3513175249099731, 1.3521828651428223])
+titles 취향저격
+"취향저격" 607
+[0.0, 0.7209618091583252, 0.8168624639511108, 0.8297916650772095, 0.8409671783447266, 0.8545839786529541, 0.8748397827148438, 0.8803642988204956, 0.9127492904663086, 0.9480719566345215, 0.9490519165992737, 0.9564101099967957, 0.9640836119651794, 0.9819436073303223, 0.9871740341186523, 1.0087227821350098, 1.0207747220993042, 1.0331833362579346, 1.0383644104003906, 1.0385558605194092]
+[3761, 394, 1319, 2892, 10527, 2303, 2232, 3898, 3298, 1839, 4236, 1922, 46, 6800, 9388, 4053, 2634, 9598, 5715]
+5
+"취향저격" 607
+[0.0, 0.7209618091583252, 0.8168624639511108, 0.8297916650772095, 0.8409671783447266, 0.8545839786529541, 0.8748397827148438, 0.8803642988204956, 0.9127492904663086, 0.9480719566345215, 0.9490519165992737, 0.9564101099967957, 0.9640836119651794, 0.9819436073303223, 0.9871740341186523, 1.0087227821350098, 1.0207747220993042, 1.0331833362579346, 1.0383644104003906, 1.0385558605194092]
+[3761, 394, 1319, 2892, 10527, 2303, 2232, 3898, 3298, 1839, 4236, 1922, 46, 6800, 9388, 4053, 2634, 9598, 5715]
+5
+titles 가로수 그늘아래
+titles 가로수 그늘아래서면
+lyrics 가로수 그늘아래서면
+"가로수 그늘아래 서면" 3977
+[0.0, 0.14923249185085297, 0.840550422668457, 0.8924077153205872, 0.9157816171646118, 0.9433309435844421, 0.9522956013679504, 0.9553347826004028, 0.9737012386322021, 0.989348292350769, 1.0058804750442505, 1.0073655843734741, 1.019728422164917, 1.0222363471984863, 1.0279685258865356, 1.030835509300232, 1.032159447669983, 1.0354870557785034, 1.0413037538528442, 1.0444315671920776]
+[705, 4097, 2268, 8349, 4352, 4316, 3821, 7288, 5536, 1111, 2, 7529, 8418, 1624, 6933, 1361, 3982, 1629]
+5
+titles 임과 함께
+lyrics 임과함께
+([2892, 4371, 2358, 4225, 4306], [1.1535230875015259, 1.2237942218780518, 1.2277958393096924, 1.2422233819961548, 1.243462324142456])
+lyrics 내 거친생각과
+"너를 위해" 283
+[0.0, 0.8176159858703613, 0.8342865109443665, 0.84051913022995, 0.8425606489181519, 0.8446840643882751, 0.8519816398620605, 0.8545998334884644, 0.8547969460487366, 0.8580403327941895, 0.8699714541435242, 0.8714166283607483, 0.8770128488540649, 0.8770128488540649, 0.878919243812561, 0.8813055753707886, 0.883886456489563, 0.8860265016555786, 0.8882450461387634, 0.8887132406234741]
+[2225, 1862, 2919, 3687, 3446, 7946, 2079, 3360, 1298, 1736, 1743, 2355, 10029, 7775, 29, 9674, 1675, 3306, 2205]
+5
+lyrics ringdingdong
+"Ring Ding Dong" 296
+[0.0, 0.862892210483551, 0.8690758347511292, 0.9140358567237854, 0.9153538942337036, 0.915907621383667, 0.9225170612335205, 0.9235160946846008, 0.9308736324310303, 0.9335330128669739, 0.9335330128669739, 0.9336178302764893, 0.939144492149353, 0.9392075538635254, 0.9443454742431641, 0.9462340474128723, 0.9482029676437378, 0.9553393721580505, 0.9554046392440796, 0.9579944610595703]
+[3182, 6491, 7049, 185, 6827, 7588, 2326, 2223, 4573, 10120, 5708, 7523, 7244, 7999, 7276, 7443, 1968, 3942, 8046]
+5
+titles 사랑비
+"사랑비" 1852
+[0.0, 0.7667129635810852, 0.7733917236328125, 0.7787376642227173, 0.784418523311615, 0.7927850484848022, 0.8085086345672607, 0.8099066019058228, 0.8100699782371521, 0.816002368927002, 0.8168990015983582, 0.8197404742240906, 0.8209350109100342, 0.8223942518234253, 0.8233484029769897, 0.8301750421524048, 0.8301750421524048, 0.8308948874473572, 0.8310143947601318, 0.8358736634254456]
+[8209, 8710, 36, 8446, 2656, 6547, 8761, 905, 10608, 1039, 1550, 9545, 1709, 5429, 4671, 9252, 4435, 4288, 3105]
+5
+lyrics 가로수 그늘아래서면
+lyrics 가로수 그늘아래서면
+lyrics '
+Database error: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' order by release_date desc' at line 1")
+lyrics Omg
+lyrics 인생이 망했어
+lyrics 가시가 되어
+titles 꿈속에너
+lyrics 하입보이
+artists 뉴진스
+titles 가시가 되어
+lyrics 사랑을
+lyrics don’t worry
+lyrics 가시
+artists 전상근
+"ROAR" 4410
+[0.0, 0.874782145023346, 0.8842782378196716, 0.8947226405143738, 0.9104093313217163, 0.911236584186554, 0.9119907021522522, 0.912355363368988, 0.9127600193023682, 0.9150598049163818, 0.9168145656585693, 0.9192838668823242, 0.9264876246452332, 0.9270440340042114, 0.9274955987930298, 0.9299523234367371, 0.9316539764404297, 0.9351345896720886, 0.9366768598556519, 0.937854528427124]
+[9718, 7212, 10973, 9969, 10309, 10800, 7196, 4432, 4848, 297, 5082, 665, 10541, 5450, 10817, 8176, 10428, 5294, 10444]
+5
+titles 안녕하세요
+([10106, 4644, 6446, 9947, 4582], [1.1084768772125244, 1.114600419998169, 1.114600419998169, 1.17046058177948, 1.1819067001342773])
+lyrics 보라매
+"이 겨울이 지나면 그땐 봄이 올까요" 4756
+[0.0, 0.8464421629905701, 0.855830192565918, 0.86069655418396, 0.86069655418396, 0.9081817865371704, 0.9093170762062073, 0.9099451899528503, 0.9163073897361755, 0.9198352098464966, 0.919935941696167, 0.9213948249816895, 0.9260696768760681, 0.9261992573738098, 0.9286207556724548, 0.9291234612464905, 0.9302611351013184, 0.9334635138511658, 0.9354346394538879, 0.9354766607284546]
+[6406, 1374, 3778, 8522, 2487, 4869, 2230, 4065, 10803, 9105, 2190, 9689, 4590, 362, 4927, 7333, 741, 5181, 10004]
+5
+artists new jeans
+artists 아이유
+"Hype boy" 673
+[0.0, 0.6333953738212585, 0.6349115371704102, 0.6398479342460632, 0.641839861869812, 0.6649110913276672, 0.6731021404266357, 0.6769388914108276, 0.6815782785415649, 0.6856735348701477, 0.6898722648620605, 0.6905088424682617, 0.6920851469039917, 0.6923335790634155, 0.6934975981712341, 0.6962262988090515, 0.6964954137802124, 0.6967201828956604, 0.6986886858940125, 0.7015069127082825]
+[10581, 10786, 9039, 6239, 4759, 5024, 4107, 8046, 10861, 7526, 4558, 2681, 869, 2770, 2698, 4370, 1758, 4627, 1249]
+5
+"퇴근버스" 7844
+[0.0, 0.4976375997066498, 0.5308529138565063, 0.5523111820220947, 0.5550240278244019, 0.5570385456085205, 0.5595749616622925, 0.561842143535614, 0.5660392642021179, 0.5664151310920715, 0.5673946738243103, 0.5712332129478455, 0.5874264240264893, 0.5922993421554565, 0.5930777192115784, 0.5948543548583984, 0.6048607230186462, 0.6067035794258118, 0.6123290061950684, 0.6128950119018555]
+[8046, 10786, 2849, 9834, 869, 3209, 1785, 8524, 5024, 4100, 7123, 1249, 800, 9400, 102, 3113, 7985, 2279, 5017]
+5
+"strawberry moon" 3943
+[0.0, 0.842370331287384, 0.8748058080673218, 0.8760678768157959, 0.8780049681663513, 0.8875745534896851, 0.8890664577484131, 0.8990979790687561, 0.9012068510055542, 0.9070557355880737, 0.9079688191413879, 0.9103003144264221, 0.914259672164917, 0.9146693348884583, 0.9155336618423462, 0.9182172417640686, 0.9183455109596252, 0.9183738827705383, 0.9192058444023132, 0.9198136925697327]
+[8256, 8081, 7455, 9034, 8812, 9591, 8145, 5778, 6308, 7204, 5479, 3623, 8614, 1427, 10513, 6826, 5876, 6348, 4183]
+5
+"안녕하세요" 2389
+[0.0, 1.0180085897445679, 1.0191459655761719, 1.0191459655761719, 1.0237510204315186, 1.0258886814117432, 1.0289487838745117, 1.0298267602920532, 1.0336254835128784, 1.0375771522521973, 1.0475093126296997, 1.0481153726577759, 1.0492916107177734, 1.057041049003601, 1.057775855064392, 1.0583418607711792, 1.0590137243270874, 1.063128113746643, 1.065230369567871, 1.0656224489212036]
+[7762, 4513, 10979, 5400, 454, 10443, 4985, 4226, 5289, 9059, 9477, 4067, 4523, 7765, 10629, 7965, 4202, 8933, 5822]
+5
+"영원 (Forever)"223.62.162.181 - - [28/Feb/2023 14:18:40] "GET /detail/4431 HTTP/1.1" 200 -
+223.62.162.181 - - [28/Feb/2023 14:18:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:41] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:47] "POST /search HTTP/1.1" 200 -
+211.234.197.162 - - [28/Feb/2023 14:18:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:48] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+211.234.197.162 - - [28/Feb/2023 14:18:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:50] "GET /detail/673 HTTP/1.1" 200 -
+211.234.197.162 - - [28/Feb/2023 14:18:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:51] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+211.234.197.162 - - [28/Feb/2023 14:18:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[31m[1mGET /search HTTP/1.1[0m" 405 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[33mGET /apple-touch-icon-120x120-precomposed.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[33mGET /apple-touch-icon-120x120.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:56] "[33mGET /apple-touch-icon-120x120-precomposed.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:57] "[33mGET /apple-touch-icon-120x120.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:57] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:57] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+223.62.162.181 - - [28/Feb/2023 14:18:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:19:02] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:19:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:02] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:10] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:19:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:10] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:11] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:19:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:11] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:22] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:19:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:22] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:29] "GET /detail/4082 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:19:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:29] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.43 - - [28/Feb/2023 14:19:41] "POST /search HTTP/1.1" 200 -
+172.226.94.43 - - [28/Feb/2023 14:19:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.43 - - [28/Feb/2023 14:19:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+172.226.94.43 - - [28/Feb/2023 14:19:41] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:19:41] "POST /search HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:19:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:19:41] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:19:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+172.226.94.43 - - [28/Feb/2023 14:19:42] "GET /detail/11074 HTTP/1.1" 200 -
+172.226.94.43 - - [28/Feb/2023 14:19:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+172.226.94.43 - - [28/Feb/2023 14:19:43] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+172.226.94.43 - - [28/Feb/2023 14:19:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:51] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:19:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:51] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:19:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:20:10] "POST /search HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:20:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:20:10] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:20:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.38.42.231 - - [28/Feb/2023 14:20:21] "GET / HTTP/1.1" 200 -
+223.38.42.231 - - [28/Feb/2023 14:20:21] "GET /static/css/main.css HTTP/1.1" 200 -
+223.38.42.231 - - [28/Feb/2023 14:20:21] "GET /static/image/Lyricle.png HTTP/1.1" 200 -
+223.38.42.231 - - [28/Feb/2023 14:20:21] "GET /static/js/main.js HTTP/1.1" 200 -
+223.38.42.231 - - [28/Feb/2023 14:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+117.111.10.171 - - [28/Feb/2023 14:20:39] "POST /nondb HTTP/1.1" 200 -
+117.111.10.171 - - [28/Feb/2023 14:20:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:20:39] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+117.111.10.171 - - [28/Feb/2023 14:20:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+223.38.42.231 - - [28/Feb/2023 14:20:40] "POST /search HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:20:40] "GET /detail/4398 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:20:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:20:40] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:20:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+223.38.42.231 - - [28/Feb/2023 14:20:41] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+223.38.42.231 - - [28/Feb/2023 14:20:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+223.38.42.231 - - [28/Feb/2023 14:20:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:20:46] "GET /detail/4398 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:20:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:20:47] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:20:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:21:21] "GET /detail/3862 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:21:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:21:21] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:21:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[31m[1mGET /search HTTP/1.1[0m" 405 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon-152x152-precomposed.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon-152x152.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon-152x152-precomposed.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon-152x152.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:21:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.120.204.126 - - [28/Feb/2023 14:44:53] "GET /detail/2389 HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:44:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:44:53] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:44:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.236.188.94 - - [28/Feb/2023 14:45:49] "GET /detail/2389 HTTP/1.1" 200 -
+58.236.188.94 - - [28/Feb/2023 14:45:49] "GET /static/css/main.css HTTP/1.1" 200 -
+58.236.188.94 - - [28/Feb/2023 14:45:49] "GET /static/image/Lyricle2.png HTTP/1.1" 200 -
+58.236.188.94 - - [28/Feb/2023 14:45:49] "GET /static/js/main.js HTTP/1.1" 200 -
+58.236.188.94 - - [28/Feb/2023 14:45:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+58.236.188.94 - - [28/Feb/2023 14:51:24] "GET /detail/2389 HTTP/1.1" 200 -
+58.236.188.94 - - [28/Feb/2023 14:51:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.236.188.94 - - [28/Feb/2023 14:51:24] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+58.236.188.94 - - [28/Feb/2023 14:51:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:52:55] "GET / HTTP/1.1" 200 -
+58.120.204.126 - - [28/Feb/2023 14:52:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:52:55] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+58.120.204.126 - - [28/Feb/2023 14:52:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+198.235.24.21 - - [28/Feb/2023 22:22:50] "GET / HTTP/1.1" 200 -
+124.49.146.167 - - [01/Mar/2023 11:07:31] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 756, in _write_bytes
+    self._sock.sendall(data)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/app.py", line 82, in search
+    cursor.execute(sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 814, in _execute_command
+    self._write_bytes(packet)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 760, in _write_bytes
+    CR.CR_SERVER_GONE_ERROR, "MySQL server has gone away (%r)" % (e,)
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/lab12/web/Lyrics/app.py", line 94, in search
+    flush("There was an error with the database query.")
+NameError: name 'flush' is not defined
+124.49.146.167 - - [01/Mar/2023 11:07:31] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+124.49.146.167 - - [01/Mar/2023 11:07:31] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+124.49.146.167 - - [01/Mar/2023 11:07:32] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+124.49.146.167 - - [01/Mar/2023 11:07:32] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+124.49.146.167 - - [01/Mar/2023 11:07:32] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+198.235.24.135 - - [01/Mar/2023 14:39:55] "GET / HTTP/1.1" 200 -
+106.101.65.246 - - [01/Mar/2023 14:56:34] "GET / HTTP/1.1" 200 -
+106.101.65.246 - - [01/Mar/2023 14:56:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.246 - - [01/Mar/2023 14:56:34] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.246 - - [01/Mar/2023 14:56:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.246 - - [01/Mar/2023 14:56:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+223.38.28.98 - - [01/Mar/2023 20:33:31] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/app.py", line 86, in search
+    cursor.execute(sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/lab12/web/Lyrics/app.py", line 94, in search
+    flush("There was an error with the database query.")
+NameError: name 'flush' is not defined
+223.38.28.98 - - [01/Mar/2023 20:33:31] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+223.38.28.98 - - [01/Mar/2023 20:33:31] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+223.38.28.98 - - [01/Mar/2023 20:33:31] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+223.38.28.98 - - [01/Mar/2023 20:33:31] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+223.38.28.98 - - [01/Mar/2023 20:33:32] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 21:34:53] "GET / HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 21:34:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 21:34:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 21:34:53] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 21:34:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.101.65.252 - - [01/Mar/2023 23:09:46] "GET / HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:09:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:09:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:09:47] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:09:53] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/app.py", line 82, in search
+    cursor.execute(sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/pymysql/connections.py", line 793, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lab12/web/Lyrics/lyrics/lib/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/lab12/web/Lyrics/app.py", line 94, in search
+    flush("There was an error with the database query.")
+NameError: name 'flush' is not defined
+106.101.65.252 - - [01/Mar/2023 23:09:53] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:09:53] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:09:54] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:09:54] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:09:54] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/lab12/web/Lyrics/app.py', reloading
+ 4431
+[0.0, 0.8423663973808289, 0.8769623637199402, 0.896393895149231, 0.9047073721885681, 0.9060641527175903, 0.9122086763381958, 0.9127931594848633, 0.9136596322059631, 0.914007842540741, 0.9144576787948608, 0.9144576787948608, 0.9206617474555969, 0.9219768047332764, 0.9237138628959656, 0.9246969223022461, 0.9246969223022461, 0.9312539100646973, 0.9313310980796814, 0.932124674320221]
+[9404, 7340, 7871, 7721, 7076, 5506, 10621, 6943, 6280, 4405, 6803, 3926, 1395, 7487, 4716, 5371, 2023, 11027, 5804]
+5
+lyrics Hype boy
+"Hype boy" 673
+[0.0, 0.6333953738212585, 0.6349115371704102, 0.6398479342460632, 0.641839861869812, 0.6649110913276672, 0.6731021404266357, 0.6769388914108276, 0.6815782785415649, 0.6856735348701477, 0.6898722648620605, 0.6905088424682617, 0.6920851469039917, 0.6923335790634155, 0.6934975981712341, 0.6962262988090515, 0.6964954137802124, 0.6967201828956604, 0.6986886858940125, 0.7015069127082825]
+[10581, 10786, 9039, 6239, 4759, 5024, 4107, 8046, 10861, 7526, 4558, 2681, 869, 2770, 2698, 4370, 1758, 4627, 1249]
+5
+lyrics 좋은날
+artists 아이유
+lyrics 빨간마후라
+lyrics 붉은노을
+"붉은 노을" 4082
+[0.0, 0.7722891569137573, 0.7743185758590698, 0.7833072543144226, 0.7845095992088318, 0.7864210605621338, 0.7931026816368103, 0.8073822259902954, 0.8103432059288025, 0.8160316944122314, 0.8161412477493286, 0.8177891373634338, 0.8180378675460815, 0.8190515041351318, 0.8198117613792419, 0.8198168277740479, 0.822383463382721, 0.8232430815696716, 0.8255547285079956, 0.8261924982070923]
+[6340, 1500, 738, 16, 1073, 5567, 4070, 6244, 4976, 5997, 3105, 1844, 638, 1816, 276, 1498, 953, 3925, 4130]
+5
+artists 슬기
+titles vancuver
+"28 Reasons" 11074
+[0.0, 0.8811162114143372, 0.8850625157356262, 0.9053635001182556, 0.9070786237716675, 0.9167980551719666, 0.9199351668357849, 0.9208919405937195, 0.9219016432762146, 0.9225785732269287, 0.9241892099380493, 0.9321867227554321, 0.9343748688697815, 0.9383427500724792, 0.9423196315765381, 0.9426277279853821, 0.9444219470024109, 0.9494762420654297, 0.9515137672424316, 0.953059732913971]
+[4272, 8231, 8565, 1745, 6582, 1904, 8288, 5063, 8064, 8363, 9622, 2537, 6733, 6907, 5967, 10699, 4876, 7750, 6149]
+5
+lyrics 겨울잠
+titles vancouver
+([8802, 3042, 1424, 1596, 2842], [1.1289095878601074, 1.142279863357544, 1.142915964126587, 1.1453207731246948, 1.1457419395446777])
+lyrics 가로수 그늘아래 서면
+"내 손을 잡아" 4398
+[0.0, 0.7702674269676208, 0.7737680673599243, 0.7856388092041016, 0.8175856471061707, 0.821753203868866, 0.8219292759895325, 0.8271780014038086, 0.8343300223350525, 0.8390474319458008, 0.8453746438026428, 0.8469117879867554, 0.8471091389656067, 0.8513804078102112, 0.8516073226928711, 0.8589854836463928, 0.8611754775047302, 0.8630872964859009, 0.8635285496711731, 0.8644605278968811]
+[10539, 9470, 6651, 8282, 7720, 9173, 10864, 9597, 3155, 2095, 8246, 10239, 10649, 7601, 1406, 4124, 4640, 7870, 3819]
+5
+"내 손을 잡아" 4398
+[0.0, 0.7702674269676208, 0.7737680673599243, 0.7856388092041016, 0.8175856471061707, 0.821753203868866, 0.8219292759895325, 0.8271780014038086, 0.8343300223350525, 0.8390474319458008, 0.8453746438026428, 0.8469117879867554, 0.8471091389656067, 0.8513804078102112, 0.8516073226928711, 0.8589854836463928, 0.8611754775047302, 0.8630872964859009, 0.8635285496711731, 0.8644605278968811]
+[10539, 9470, 6651, 8282, 7720, 9173, 10864, 9597, 3155, 2095, 8246, 10239, 10649, 7601, 1406, 4124, 4640, 7870, 3819]
+5
+"겨울잠" 3862
+[0.0, 0.9105554819107056, 0.9188201427459717, 0.9444661736488342, 0.9451227188110352, 0.9600629210472107, 0.9634653329849243, 0.9634653329849243, 0.9643243551254272, 0.969082772731781, 0.969635546207428, 0.9700831174850464, 0.9745885729789734, 0.9770435690879822, 0.9770435690879822, 0.9818920493125916, 0.9823141694068909, 0.9832741022109985, 0.9851809144020081, 0.9879305362701416]
+[10402, 10188, 7556, 2559, 2435, 5728, 7890, 4364, 8059, 5341, 7864, 8419, 3452, 7203, 4241, 6167, 1996, 2377, 8029]
+5
+"안녕하세요" 2389
+[0.0, 1.0180085897445679, 1.0191459655761719, 1.0191459655761719, 1.0237510204315186, 1.0258886814117432, 1.0289487838745117, 1.0298267602920532, 1.0336254835128784, 1.0375771522521973, 1.0475093126296997, 1.0481153726577759, 1.0492916107177734, 1.057041049003601, 1.057775855064392, 1.0583418607711792, 1.0590137243270874, 1.063128113746643, 1.065230369567871, 1.0656224489212036]
+[7762, 4513, 10979, 5400, 454, 10443, 4985, 4226, 5289, 9059, 9477, 4067, 4523, 7765, 10629, 7965, 4202, 8933, 5822]
+5
+"안녕하세요" 2389
+[0.0, 1.0180085897445679, 1.0191459655761719, 1.0191459655761719, 1.0237510204315186, 1.0258886814117432, 1.0289487838745117, 1.0298267602920532, 1.0336254835128784, 1.0375771522521973, 1.0475093126296997, 1.0481153726577759, 1.0492916107177734, 1.057041049003601, 1.057775855064392, 1.0583418607711792, 1.0590137243270874, 1.063128113746643, 1.065230369567871, 1.0656224489212036]
+[7762, 4513, 10979, 5400, 454, 10443, 4985, 4226, 5289, 9059, 9477, 4067, 4523, 7765, 10629, 7965, 4202, 8933, 5822]
+5
+"안녕하세요" 2389
+[0.0, 1.0180085897445679, 1.0191459655761719, 1.0191459655761719, 1.0237510204315186, 1.0258886814117432, 1.0289487838745117, 1.0298267602920532, 1.0336254835128784, 1.0375771522521973, 1.0475093126296997, 1.0481153726577759, 1.0492916107177734, 1.057041049003601, 1.057775855064392, 1.0583418607711792, 1.0590137243270874, 1.063128113746643, 1.065230369567871, 1.0656224489212036]
+[7762, 4513, 10979, 5400, 454, 10443, 4985, 4226, 5289, 9059, 9477, 4067, 4523, 7765, 10629, 7965, 4202, 8933, 5822]
+5
+lyrics don’t worry
+Database error: (2006, "MySQL server has gone away (BrokenPipeError(32, 'Broken pipe'))")
+artists 아이유
+Database error: (0, '')
+lyrics 사랑이 라는 이유로
+Database error: (0, '')
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-980-008
+106.101.65.252 - - [01/Mar/2023 23:10:29] "POST /search HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:10:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:10:29] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:10:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:11:15] "GET /howto HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:11:15] "GET /static/image/howtouse.png HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:11:46] "POST /search HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:11:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:11:46] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:11:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:12:01] "POST /search HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:12:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:12:01] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:12:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:19:07] "GET /detail/1737 HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:19:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:19:07] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:19:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:19:54] "GET /detail/1737 HTTP/1.1" 200 -
+106.101.65.252 - - [01/Mar/2023 23:19:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:19:55] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [01/Mar/2023 23:19:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+ * Detected change in '/home/lab12/web/Lyrics/app.py', reloading
+lyrics 사랑이 라는 이유로
+lyrics 사랑이 라는 이유로
+lyrics 사랑이 라는 이유로
+"어떻게 이별까지 사랑하겠어, 널 사랑하는 거지" 1737
+[0.0, 0.742432177066803, 0.7492400407791138, 0.7541323900222778, 0.7676629424095154, 0.7689763307571411, 0.7722451090812683, 0.7727360725402832, 0.7762150168418884, 0.7831730842590332, 0.785685658454895, 0.7859197854995728, 0.7900808453559875, 0.7957612872123718, 0.8015941381454468, 0.8022447228431702, 0.8029194474220276, 0.8055298328399658, 0.8087174892425537, 0.8109355568885803]
+[412, 276, 4952, 2494, 2953, 5376, 10369, 2205, 563, 3758, 2789, 10595, 2295, 1878, 3932, 2667, 1073, 6971, 4328]
+5
+"어떻게 이별까지 사랑하겠어, 널 사랑하는 거지" 1737
+[0.0, 0.742432177066803, 0.7492400407791138, 0.7541323900222778, 0.7676629424095154, 0.7689763307571411, 0.7722451090812683, 0.7727360725402832, 0.7762150168418884, 0.7831730842590332, 0.785685658454895, 0.7859197854995728, 0.7900808453559875, 0.7957612872123718, 0.8015941381454468, 0.8022447228431702, 0.8029194474220276, 0.8055298328399658, 0.8087174892425537, 0.8109355568885803]
+[412, 276, 4952, 2494, 2953, 5376, 10369, 2205, 563, 3758, 2789, 10595, 2295, 1878, 3932, 2667, 1073, 6971, 4328]
+5
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-980-008
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.31.28.87:8999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 118-980-008
+106.101.65.252 - - [02/Mar/2023 00:12:22] "GET /detail/1737 HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:12:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:12:23] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:12:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:12:30] "GET / HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:12:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:12:31] "[36mGET /static/image/Lyricle.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:12:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:14:46] "POST /search HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:14:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:14:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:14:46] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:03] "POST /search HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:15:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:03] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:09] "GET /detail/4440 HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:15:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:10] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:15:55] "GET /howto HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:15:55] "[36mGET /static/image/howtouse.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:16:17] "POST /search HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:16:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:16:17] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:16:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:16:19] "GET /detail/1737 HTTP/1.1" 200 -
+106.101.65.252 - - [02/Mar/2023 00:16:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:16:19] "[36mGET /static/image/Lyricle2.png HTTP/1.1[0m" 304 -
+106.101.65.252 - - [02/Mar/2023 00:16:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
